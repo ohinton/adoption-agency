@@ -27,6 +27,8 @@ _Group project practice_
 * _form IDs: (form)#new-pet | #new-pet-name, #new-pet-type, #new-pet-description, #new-pet-availability_
 * _
 
+## css styles
+* color palettes Background: #fefbd8, other: # 618685, #36486b, #4040a1, #50394c, #b2b2b2
 
 
 ## Setup/Installation Requirements

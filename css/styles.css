@@ -34,6 +34,14 @@ p {
   text-decoration: underline;
 }
 
+#name-type li {
+  display: inline-block;
+}
+
+ul {
+  text-decoration: none;
+}
+
 .adopted {
   color: #484f4f;
 }
@@ -50,4 +58,5 @@ p {
   background-repeat: no-repeat;
   color: #618685;
   text-shadow: black 0.3em 0.3em 0.3em;
+
 }

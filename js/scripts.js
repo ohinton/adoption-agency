@@ -7,6 +7,7 @@ function Pet (name, type, age, description, availability) {
 }
 
 $(document).ready(function(){
+
   $("form#new-pet").submit(function(event){
     event.preventDefault();
 
@@ -17,7 +18,8 @@ $(document).ready(function(){
 
     var newPet = new Pet(petName, petType, petAge, petDescription);
 
-    $("ul#name-type").append("<li><span class='pet'>" + newPet.petName + ", " + newPet.petType + "</span></li>");
+      $("ul#name-type").append("<li><span class='pet'>" + newPet.petName + ", " + newPet.petType + "</span></li><br>");
+
 
     $(".pet").last().click(function() {
       $("#show-pet").show();
@@ -25,6 +27,12 @@ $(document).ready(function(){
       $(".pet-type").text(newPet.petType);
       $(".pet-age").text(newPet.petAge);
       $(".pet-description").text(newPet.petDescription);
+
+
+    // $(".availability").click(function() {
+    //   newPet.petAvailability = "No";
+    //   $(".pet-availability").text(newPet.petAvailability);
+    // });
 
     });
   });

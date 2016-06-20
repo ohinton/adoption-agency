@@ -16,6 +16,18 @@ _Group project practice_
 | Users can view only animals currently available for adoption | User clicks button marked "Show currently available pets" | Only pets that are currently available are shown
 | Users can view only animals that have already been adopted | User clicks button marked "Show adopted pets" | Only pets that are already adopted are shown
 
+## Style Sheet
+
+* _function Pet (name, type, age, description, availability) {
+  this.petName = name;
+  this.petType = type;
+  this.petAge = age;
+  this.petDescription = description;
+  this.petAvailability = availability;_
+* _form IDs: (form)#new-pet | #new-pet-name, #new-pet-type, #new-pet-description, #new-pet-availability_
+* _
+
+
 
 ## Setup/Installation Requirements
 

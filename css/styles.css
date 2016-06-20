@@ -8,7 +8,7 @@ h1 {
 }
 
 h2{
-  font-family:cursive;
+  font-family: cursive;
   color: #618685;
 }
 
@@ -35,11 +35,11 @@ p {
 }
 
 .adopted {
-  color: #36486b;
+  color: #484f4f;
 }
 
 .available {
-  color: #4040a1;
+  color: #50394c;
 }
 
 .jumbotron {

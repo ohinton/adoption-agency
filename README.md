@@ -28,7 +28,7 @@ _Group project practice_
 * _
 
 ## css styles
-* color palettes Background: #fefbd8, other: # 618685, # 36486b, # 4040a1
+* color palettes Background: #fefbd8, other: # 618685, #36486b, #4040a1, #50394c, #b2b2b2
 
 
 ## Setup/Installation Requirements

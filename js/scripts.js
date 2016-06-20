@@ -25,6 +25,13 @@ $(document).ready(function(){
       $(".pet-type").text(newPet.petType);
       $(".pet-age").text(newPet.petAge);
       $(".pet-description").text(newPet.petDescription);
+<<<<<<< HEAD
     });
   });
 });
+=======
+
+  });
+});
+});
+>>>>>>> master

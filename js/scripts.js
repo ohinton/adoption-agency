@@ -17,7 +17,7 @@ $(document).ready(function(){
 
     var newPet = new Pet(petName, petType, petAge, petDescription);
 
-    $("ul#name-type").append("<li><span class='pet'>" + newPet.petName + ", " + newPet.petType + "</span><li>");
+    $("ul#name-type").append("<li><span class='pet'>" + newPet.petName + ", " + newPet.petType + "</span></li>");
 
     $(".pet").last().click(function() {
       $("#show-pet").show();
@@ -27,4 +27,5 @@ $(document).ready(function(){
       $(".pet-description").text(newPet.petDescription);
 
   });
+});
 });

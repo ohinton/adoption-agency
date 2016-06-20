@@ -1,3 +1,26 @@
+body {
+    background-color: #fefbd8;
+}
+
+h1 {
+  font-weight: normal;
+  color: #618685;
+}
+
+h2{
+  font-family:cursive;
+  color: #618685;
+}
+
+label {
+  font-size: 15px;
+  color:
+}
+
+p {
+  font-family: sans-serif;
+}
+
 #show-pet {
   display: none;
 }
@@ -9,4 +32,22 @@
 
 #name-type:hover {
   text-decoration: underline;
+}
+
+.adopted {
+  color: #36486b;
+}
+
+.available {
+  color: #4040a1;
+}
+
+.jumbotron {
+  margin-bottom: 1px;
+  background-image: url(../img/pet-adoption.jpg);
+  background-position: 0% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #618685;
+  text-shadow: black 0.3em 0.3em 0.3em;
 }

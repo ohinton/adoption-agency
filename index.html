@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.0.0.js"></script>
     <script src="js/scripts.js"></script>
     <title>Adoption Agency Website</title>
   </head>
   <body>
-
+    <div class="container">
+      <h1>Adoption Agency</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Add your pet's information:</h2>
+          <form id="new-pet">
+            <div class="form-group">
+              <label for="new-pet-name">Pet Name:</label>
+              <input type="text" class="form-control" id="new-pet-name">
+            </div>
+            <div class="form-group">
+              <label for="new-pet-type">Pet Type</label>
+              <input type="text" class="form-control" id="new-pet-type">
+            </div>
+            <div class="form-group">
+              <label for="new-pet-age">Pet Age:</label>
+              <input type="text" class="form-control" id="new-pet-age">
+            </div>
+            <div class="form-group">
+              <label for="new-pet-description">Description:</label>
+              <input type="text" class="form-control" id="new-pet-description">
+            </div>
+            <button type="submit" class="btn btn-primary">Add your pet</button>
+          </form>
+          <h2>Pets:</h2>
+          <ul id="name-type">
+          </ul>
+          </div>
+          <div class="col-md-6">
+            <div id="show-pet">
+              <h2 class="pet-name"></h2>
+              <p>Pet type: <span class="pet-type"></span></p>
+              <p>Address:</p>
+              <ul id="details">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
   </body>
   </html>

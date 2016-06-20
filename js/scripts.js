@@ -28,10 +28,12 @@ $(document).ready(function(){
       $(".pet-age").text(newPet.petAge);
       $(".pet-description").text(newPet.petDescription);
 
+
     // $(".availability").click(function() {
     //   newPet.petAvailability = "No";
     //   $(".pet-availability").text(newPet.petAvailability);
     // });
+
     });
   });
 });

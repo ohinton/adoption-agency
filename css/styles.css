@@ -10,3 +10,15 @@
 #name-type:hover {
   text-decoration: underline;
 }
+
+#name-type li {
+  display: inline-block;
+}
+
+ul {
+  text-decoration: none;
+}
+
+.adopted {
+  color: green;
+}
